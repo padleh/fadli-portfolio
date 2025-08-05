@@ -69,13 +69,16 @@
 }
 @media(max-width:768px){
     .services{
-        align-items: start;
+        align-items: center;
         gap: 70px;
         margin: 20px 70px;
     }
     .services h1{
         padding: 0;
         font-size: 50px;
+    }
+    .services-title{
+        text-align: center; 
     }
     .services-title img{
         width: 130px;
@@ -91,13 +94,13 @@
     .services-format p{
         font-size: 18px;
         line-height: 32px;
-        max-width: 300px;
+        max-width: 100%; 
     }
     .services-readmore img{
         width: 20px;
     }
     .services-container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr; 
         gap: 30px;
     }
 }
